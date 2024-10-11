@@ -14,7 +14,6 @@ def read_text_file(path: str) -> list[str]:
     -------
     list: [str]
         text file content in a list of strings
-        pretend change
 
     """
     with open(path, "r") as f:
